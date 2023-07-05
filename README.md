@@ -3,7 +3,6 @@ Variabel yang pertama dan utama adalah variabel $_SERVER. Ia adalah sebuah arr
 Nilai yang tersimpan pada variabel $_SERVER disediakan oleh web server, oleh karena itu tidak ada jaminan khusus bahwa setiap web server yang kita gunakan akan memberikan semua data-data standar yang ada.
 Untuk bisa mengetahui nilai apa saja yang tersedia pada variabel $_SERVER, kita bisa mengeksekusi perintah berikut:
 <?php
-
 echo json_encode($_SERVER);
 Berikut ini output yang saya dapatkan setelah menginstall ekstensi JSON View pada google chrome yang saya gunakan:
 Sebagai penjelasan, pada tabel berikut ini adalah beberapa contoh data pada variabel $_SERVER yang mungkin akan sering anda butuhkan:
