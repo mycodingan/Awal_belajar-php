@@ -8,33 +8,6 @@ echo json_encode($_SERVER);
 Berikut ini output yang saya dapatkan setelah menginstall ekstensi JSON View pada google chrome yang saya gunakan:
 Sebagai penjelasan, pada tabel berikut ini adalah beberapa contoh data pada variabel $_SERVER yang mungkin akan sering anda butuhkan:
 Tabel detail variabel $_SERVER
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 2. Variabel $_GET
 Variabel $_GET adalah array asosiatif yang berisi nilai dari query string.
 Misalkan kita memiliki file halo-dunia.php sebagaimana berikut:
